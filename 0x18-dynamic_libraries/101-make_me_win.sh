@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -p /tmp https://github.com/kootmagdy/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libwinner.so
-export LD_PRELOAD=/tmp/libwinner.so
+wget -P .. https://raw.githubusercontent.com/monoprosito/holbertonschool-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
